@@ -49,16 +49,16 @@ echo "</form>";
 
 
 echo "</div>";
-?>
 
-<?php
- if(isset($_POST['submit']) && $_POST['submit'] == 'SUBMIT'){
-  if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))
-  {
-        $secret = '6Lf3m6gdAAAAAJJnMujCkTzrPi02S7tZvrWl2l-f';
-        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
-        $responseData = json_decode($verifyResponse);
-        if($responseData->success){}
-		}
-	}        
-    ?>
+
+
+echo "if(isset($_POST['submit']) && $_POST['submit'] == 'SUBMIT'){";
+	echo "if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))";
+  	echo "{";
+        echo "$secret = '6Lf3m6gdAAAAAJJnMujCkTzrPi02S7tZvrWl2l-f';";
+        echo "$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);";
+        echo "$responseData = json_decode($verifyResponse);";
+        echo "if($responseData->success){}";
+		echo "}";
+	echo "}";
+?>
