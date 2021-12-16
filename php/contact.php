@@ -37,7 +37,7 @@ echo "<form method='post' action='traitement.php'>";
 	    echo "<textarea type='text' name='message' id='message' placeholder='  Bonjour, je vous contacte car....' required></textarea>";
 	    echo "</br>";
 	    echo "</br>";
-	    echo "<div class = "g-recaptcha" data-sitekey = "site_key">";
+	    echo "<div class = "g-recaptcha" data-sitekey = "6Lf3m6gdAAAAAIg8MKJ14mzAn9G-0OcfuWIHuhYK">";
 
 
 	    echo "<input id='envoyer' type='submit' value='Envoyer' />";
@@ -55,7 +55,7 @@ echo "</div>";
  if(isset($_POST['submit']) && $_POST['submit'] == 'SUBMIT'){
   if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))
   {
-        $secret = '6LfwGpIUAAAAANKk4huBMAbqP3hKzknxOj2wo6Qs';
+        $secret = '6Lf3m6gdAAAAAJJnMujCkTzrPi02S7tZvrWl2l-f';
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
         $responseData = json_decode($verifyResponse);
         if($responseData->success){}
