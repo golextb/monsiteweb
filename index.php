@@ -7,6 +7,7 @@
         <header>
             <?php include("php/menu.php"); ?>
         </header>
+       <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <?php
         $data=yaml_parse_file("data/menu.yaml");
         foreach($data AS $cle=>$val){
