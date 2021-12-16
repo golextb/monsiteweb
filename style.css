@@ -75,12 +75,12 @@ a{
 
 
 
-.class_experience1{
+.class_mini_boite_1{
 	display: flex;
 	justify-content: space-around;
 }
 
-.class_experience2{
+.class_mini_boite_2{
 	display: flex;
 	justify-content: space-around;
 }
@@ -123,6 +123,11 @@ a{
 	font-weight: normal;
 	text-align: center;
 	padding: 7vh 6vh 1vh 6vh;
+}
+
+#police_legende{
+	font-size: 15px;
+	font-weight: lighter;
 }
 
 #police_competences{

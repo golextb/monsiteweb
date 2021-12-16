@@ -1,14 +1,10 @@
 -
-   poste: professeur
-   entreprise: IUT
-   dateDebut: 2018
-   dateFin: 2021
-   lieu: Ifs
-   descriptif: J'y enseigne l'algorithmie, les langages C et Python, le développement WEB, WordPress. 
--
-   poste: formateur
-   entreprise: ISPN
-   dateDebut: 2018
-   dateFin: 2021
-   lieu: Caen
-   descriptif: J'y enseigne le développement WEB, les bases de données, le langage SQL.
+   diplome1: Brevet des collègues
+   etablissement1: Marie Immaculée
+   date1: 2018
+   description1: Suite à mes 4 années de collègue, j'ai passé et réussi le brevet.
+
+   diplome2: BAC STI2D
+   etablissement2: Institut Lemonnier
+   date2: 2021
+   description2: Suite à mes 4 années de lycée, j'ai passé et réussi le BAC STI2D.

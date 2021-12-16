@@ -9,7 +9,7 @@ foreach($data as $experience )
 {
     echo "<h1 id='police_titre'>"."Experiences"."</h1>";
 
-    echo "<div class='class_experience1'>";
+    echo "<div class='class_mini_boite_1'>";
     echo "<div class='boite_competence'>";
         echo "<strong>"."Réalisé dans le secteur : "."</strong>".$experience ["secteur1"]."<br />";
         echo "<strong>"."Pour un : "."</strong>".$experience ["poste1"]."<br />";
@@ -33,7 +33,7 @@ foreach($data as $experience )
     echo "</div>";
     echo "</div>";
 
-    echo "<div class='class_experience2'>";
+    echo "<div class='class_mini_boite_2'>";
     echo "<div class='boite_competence'>";;
         echo "<strong>"."Réalisé dans le secteur : "."</strong>".$experience ["secteur3"]."<br />";
         echo "<strong>"."Pour un : "."</strong>".$experience ["poste3"]."<br />";
