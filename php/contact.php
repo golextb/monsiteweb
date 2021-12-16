@@ -37,7 +37,7 @@ echo "<form method='post' action='traitement.php'>";
 	    echo "<textarea type='text' name='message' id='message' placeholder='  Bonjour, je vous contacte car....' required></textarea>";
 	    echo "</br>";
 	    echo "</br>";
-	    echo "<div class = "g-recaptcha" data-sitekey = "6Lf3m6gdAAAAAIg8MKJ14mzAn9G-0OcfuWIHuhYK">";
+	    echo "<div class = "g-recaptcha" data-sitekey = '6Lf3m6gdAAAAAIg8MKJ14mzAn9G-0OcfuWIHuhYK'>";
 
 
 	    echo "<input id='envoyer' type='submit' value='Envoyer' />";
