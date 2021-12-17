@@ -54,7 +54,6 @@ if($responseKeys["success"]) {
         $mail->SMTPSecure = 'ssl'; //or ssl
         $mail->Host = 'ssl://smtp.gmail.com';
         $mail->Port = 465;
-        $mail->SMTPSecure = 'ssl';
        
         //Pour autoriser un envoi depuis 127.0.0.1
         $mail->SMTPOptions = [
