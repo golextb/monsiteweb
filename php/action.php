@@ -88,7 +88,7 @@ if($responseKeys["success"]) {
  
 // !!! Si un robot envoi un message !!! //
 else {
-    echo 'You are spammer ! Get the out';
+    echo 'You are spammer ! Get out';
 }
  
 include_once '../vendor/autoload.php';

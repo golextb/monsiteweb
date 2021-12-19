@@ -7,7 +7,7 @@ echo"</pre>";*/
 
 		echo "<h1 id='police_titre'>"."Me contacter"."</h1>";
 
-echo "<form method='post' action='traitement.php'>";
+echo "<form method='post' action='action.php'>";
                                
     echo "<fieldset>";
 	    echo "<label for='nom'>Nom de l'expéditeur : </label>";
