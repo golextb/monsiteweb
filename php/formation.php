@@ -6,7 +6,7 @@ print_r($data);
 echo"</pre>";*/
 
 foreach($data as $formation ){
-    echo "<h1 id='police_titre'>"."formation"."</h1>";
+    echo "<h1 id='police_titre'>"."Formation"."</h1>";
 
     echo "<div class='class_mini_boite_1'>";
     echo "<div class='boite_competence'>";
