@@ -65,8 +65,8 @@ if($responseKeys["success"]) {
                 ];
        
         $mail->SMTPAuth = true;  // Authentification SMTP active
-        $mail->Username = $CONFIG['damien.raimbourg@sts-sio-caen.info'];
-        $mail->Password = $CONFIG['dLdT4oAaH'];
+        $mail->Username = $CONFIG['user'];
+        $mail->Password = $CONFIG['password'];
        
         $mail->isHTML(true);
         $mail->SetFrom($_POST['mail']);
