@@ -16,6 +16,16 @@ foreach($data as $formation ){
         echo "<h1 id='police_legende'>".$formation ["description1"]."</h1>"."<br />";
         echo "<br />"."<br />"."<br />";
     echo "</div>";
+
+    echo "<div class='class_mini_boite_1'>";
+    echo "<div class='boite_competence'>";
+        echo "<strong>"."Diplôme : "."</strong>".$formation ["diplome3"]."<br />";
+        echo "<strong>"."Passé dans l'établissement : "."</strong>".$formation ["etablissement3"]."<br />";
+        echo "<strong>"."En : "."</strong>".$formation ["date3"]."<br />";
+        echo "<h1 id='police_legende'>".$formation ["description3"]."</h1>"."<br />";
+        echo "<br />"."<br />"."<br />";
+    echo "</div>";
+
     echo "</div>";
 
     echo "<div class='class_mini_boite_2'>";
