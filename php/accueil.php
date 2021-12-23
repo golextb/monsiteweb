@@ -13,6 +13,6 @@ foreach($data as $accueil ){
     echo "<h1 id='police_text_intro2'>".$accueil["descriptif2"]." ".$accueil["actuel"]."."."</h1>"."<br />";
     echo "</div>";
 }
- 	echo "<img id='image_damien' src='image/damien_raimbourg.jpg'>";
+ 	echo "<img id='image_damien' src='image/damien_raimbourg2.jpg'>";
     echo "</div>";
 ?>
