@@ -25,6 +25,7 @@ foreach($data as $formation ){
         echo "<h1 id='police_legende'>".$formation ["description3"]."</h1>"."<br />";
         echo "<br />"."<br />"."<br />";
     echo "</div>";
+    echo "</div>";
 
     echo "</div>";
 
