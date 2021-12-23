@@ -69,6 +69,12 @@ a{
 	border-radius: 30px;
 }
 
+#block_text{
+	margin: 5vh 7vh 0vh 0vh;	/*haut gauche bas droite*/
+	width: 90vh;				/*largueur*/
+	height: 75vh;				/*hauteur*/
+}
+
 
 
 /******************** Polices d'écriture ********************/
@@ -140,13 +146,6 @@ a{
 	margin: 0;
 }
 
-#block_text{
-	margin: 5vh 7vh 0vh 0vh;	/*haut gauche bas droite*/
-	width: 90vh;	/*largueur*/
-	height: 75vh;	/*hauteur*/
-	/*background-color: yellow;*/
-}
-
 
 
 /******************** Images ********************/
@@ -156,16 +155,16 @@ a{
 #image_damien{
 	position: absolute;
 	top: 26%; right: 20%;
-	height: 60%;	/*hauteur*/
-	width: 25%;	/*largueur*/
+	height: 60%;			/*hauteur*/
+	width: 25%;				/*largueur*/
 	border: solid;
 }
 
 #image_illustration{
 	position: absolute;
 	top: 130%; right: 15%;
-	height: 60vh;	/*hauteur*/
-	width: 50vh;	/*largueur*/
+	height: 60vh;			/*hauteur*/
+	width: 50vh;			/*largueur*/
 
 	border: solid;
 	border-radius: 10px;
@@ -195,6 +194,12 @@ a{
 	background: #DE0A0A;
 	transition: width 2s;
 }
+
+
+
+/******************** Boite d'envoie ********************/
+
+
 
 fieldset{
 	height: auto;
