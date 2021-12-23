@@ -58,7 +58,7 @@ foreach($data as $experience )
     echo "</div>";
 
 
-    echo "<h3><a id='CV' href='../cv/CV.docs.pdf'>Mon CV</a></h3>";
+    echo "<h3><a id='CV' href='cv/CV.pdf'>Mon CV</a></h3>";
 }
 echo "</div>";
 ?>
