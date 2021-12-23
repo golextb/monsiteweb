@@ -58,7 +58,7 @@ foreach($data as $experience )
     echo "</div>";
 
 
-    echo "<h3><a id='CV' href='https://docs.google.com/document/d/17CyO70XccikwmXLq1YGlS12El0EhyGMv/edit?usp=sharing&ouid=100961806088241363307&rtpof=true&sd=true'>Mon CV</a></h3>";
+    echo "<h3><a id='CV' href='../cv/CV.docs.pdf'>Mon CV</a></h3>";
 }
 echo "</div>";
 ?>
